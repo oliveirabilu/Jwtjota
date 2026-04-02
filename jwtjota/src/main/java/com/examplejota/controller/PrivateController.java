@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class PrivateController {
     @GetMapping
     public String getMessage(){
-        return "Hello from private API Controller"
+        return "Hello from private API Controller";
     }
 }
